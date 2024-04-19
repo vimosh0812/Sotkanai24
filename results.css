@@ -17,6 +17,7 @@ body {
     justify-content: space-between;
     align-items: center;
     padding: 10px;
+    background-color: #fff;
   }
   .container {
     width: 80%; /* Set container width to 80% */
@@ -67,10 +68,16 @@ body {
     height: 100px;
   }
   @media screen and (max-width: 600px) {
-
     .ima {
     height: 80px;
   }
-  
+  .container {
+    width: 95%;
+    min-width: 300px;
+  }
+
+  body{
+    align-items: center;
+  }
   }
 
